@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id= "@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "连接蓝牙"
+        />
+        <Button 
+        android:id= "@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "读取标签"
+        />
+        <Button 
+        android:id= "@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "写标签"
+        />
+         <Button 
+        android:id= "@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height= "wrap_content"
+        android:text= "蓝牙打印"
+        />
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width ="fill_parent" 
+            android:layout_height="wrap_content"
+            android:hint = "输入写入标签的16进制内容"
+            android:maxLength="12"
+            />
+                <EditText
+            android:id="@+id/edit1"
+            android:layout_width ="fill_parent" 
+            android:layout_height="wrap_content"
+            android:hint = "Mask"
+            />
+
+</LinearLayout>

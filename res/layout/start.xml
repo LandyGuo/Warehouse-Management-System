@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00323232"><!-- 设置透明度 -->"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="物料管理系统"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:textSize="35px"
+        android:textScaleX="1.5"
+        android:layout_weight="3"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3" >
+        <!-- 用于隐藏输入焦点 -->
+            <EditText
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+            />
+
+    <!-- 用于摆放用户名提示和输入框 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="用户名"
+                android:textColor="#0000FF" />
+            
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_weight="3"
+                android:layout_height="fill_parent"
+                android:layout_width="80px"
+            />
+        
+        </LinearLayout>
+        <!-- 用于摆放密码提示和密码输入框 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            <TextView
+            android:text="密码"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="20px"
+            />
+            <EditText
+                android:id="@+id/password"
+                android:layout_weight="3"
+                android:inputType="textPassword"
+                android:layout_height="fill_parent"
+                android:layout_width="80px"
+            />
+        </LinearLayout>
+        <!-- 用于摆放服务器IP提示和IP输入框 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            <TextView
+            android:text="服务器IP"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="20px"
+            />
+            <EditText
+                android:id="@+id/hostIp"
+                android:layout_weight="3"
+                android:layout_height="fill_parent"
+                android:layout_width="80px"
+            />
+       </LinearLayout>
+        <!-- 占位用-->
+                <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+            
+                    <CheckBox
+                              android:id="@+id/check_rememberme"
+						     android:layout_width="wrap_content" 
+      						android:layout_height="wrap_content"
+      						android:checked="true"
+      						android:text="记住我"
+      						android:layout_margin="30dp"
+                        />
+                      <CheckBox
+                              android:id="@+id/check_rememberHost"
+						     android:layout_width="wrap_content" 
+      						android:layout_height="wrap_content"
+      						android:checked="true"
+      						android:text="记住IP"
+      						android:layout_margin="30dp"
+                        />
+                    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:orientation="vertical" >
+			<LinearLayout
+			android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/Login"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="登陆" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        </LinearLayout>
+</LinearLayout>

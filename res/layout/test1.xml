@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text = "跳转"
+        android:id="@+id/jump"
+        />
+        <Button
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+            android:text = "连接"
+            android:id="@+id/connect"
+           />
+                <Button
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+            android:text = "读取"
+            android:id="@+id/read"
+           />
+                        <Button
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+            android:text = "写入"
+            android:id="@+id/write"
+           />
+    
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00323232"
+    android:gravity="center"><!-- 设置透明度 -->
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="60px"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text ="主菜单"
+        android:gravity="center"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="30px"
+        android:textScaleX="1.5"
+        android:textSize="30dp"
+        android:textColor="#0000FF"
+        />
+            <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:text="发卡"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/faka_button"
+            />
+
+            <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:text="出入库管理"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inOutBill_button"
+            />
+             <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:text="大件管理"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BigMatterManagement_button"
+            />
+            <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:id = "@+id/PanDianManagement"
+            android:text="盘点"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+            <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:text="数据更新"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_download_button"
+            />
+            <Button
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:text="设置"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/configuration_button"
+            />
+    
+    
+    
+    </LinearLayout>
+    
+
+
+    
+    
+    
+    </LinearLayout>

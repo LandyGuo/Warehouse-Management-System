@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+        <TextView
+            android:text="手持机MAC:"
+            android:textSize="30sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            />
+        <EditText
+            android:id="@+id/pos_mac"
+            android:textSize="25sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+        <TextView
+            android:text="打印机MAC:"
+            android:textSize="30sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            />
+        <EditText
+            android:id="@+id/print_mac"
+            android:textSize="25sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+        
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+        <TextView
+            android:text="默认打印份数:"
+            android:textSize="30sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            />
+        <EditText
+            android:id="@+id/print_number"
+            android:textSize="25sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="150dp"
+            >
+        <Button
+            android:id="@+id/saveButton"
+            android:text="保存"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+            
+            </LinearLayout>
+    
+
+</LinearLayout>
